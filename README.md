@@ -27,28 +27,26 @@ pip install -r requirements.txt
 Run the API Locally:
 
 
-uvicorn main:app --host 0.0.0.0 --port 8000
+uvicorn main:app --host 0.0.0.0 --port 5000
 Test the API:
 
 Open your browser or a tool like Postman and send a POST request to:
-arduino
-Copy
-Edit
-http://127.0.0.1:8000/predict
+
+local host on port 8000 (for eg :http://127.0.0.1:5000/predict)
 Sample input:
 
 {
   "text": "We love the analytics, but CompetitorX has a cheaper subscription "
 }
+
 Docker Setup::
 Build the Docker Image:
-docker build -t text-classification .
+docker build -t app.
 Run the Docker Container:
 
-docker run -p 8000:8000 text-classification
+docker run -p 5000:5000 app
 -Test the API in Docker: Use the same URL as above:
 
--http://127.0.0.1:8000/predict
 Usage:
 Input: JSON containing a text snippet:
 
