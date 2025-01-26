@@ -1,0 +1,101 @@
+id,text_snippet,labels
+1,Our compliance team is worried about data handling. Are you SOC2 certified?,Objection
+2,Our compliance team is worried about data handling. Are you SOC2 certified?,Pricing Discussion
+3,"We are considering a discount, but our data pipeline needs better integration.",Objection
+4,Security concerns like data breaches are a top priority for us.,"Security, Pricing Discussion, Objection"
+5,We are evaluating the analytics capabilities of your solution vs CompetitorX.,"Objection, Competition, Pricing Discussion"
+6,Security concerns like data breaches are a top priority for us.,Objection
+7,Security concerns like data breaches are a top priority for us.,"Objection, Pricing Discussion, Competition"
+8,"We love the data pipeline, but CompetitorY has a cheaper subscription.","Security, Pricing Discussion"
+9,Our compliance team is worried about data handling. Are you SOC2 certified?,"Pricing Discussion, Competition"
+10,Security concerns like data breaches are a top priority for us.,Competition
+11,"We are considering a discount, but our analytics needs better integration.",Objection
+12,Data pipeline efficiency matters a lot. Can you customize it?,"Pricing Discussion, Competition"
+13,Data pipeline efficiency matters a lot. Can you customize it?,"Objection, Pricing Discussion, Security"
+14,Can you offer a better renewal cost? We also like CompetitorY's data pipeline.,"Pricing Discussion, Security, Competition"
+15,"We are considering a discount, but our AI engine needs better integration.",Objection
+16,"We are considering a discount, but our AI engine needs better integration.","Security, Pricing Discussion"
+17,Data pipeline efficiency matters a lot. Can you customize it?,"Objection, Security, Pricing Discussion"
+18,Data pipeline efficiency matters a lot. Can you customize it?,"Pricing Discussion, Objection"
+19,"We love the analytics, but CompetitorY has a cheaper subscription.",Security
+20,Our compliance team is worried about data handling. Are you SOC2 certified?,Pricing Discussion
+21,"We love the AI engine, but CompetitorY has a cheaper subscription.","Pricing Discussion, Objection"
+22,Can you offer a better renewal cost? We also like CompetitorZ's AI engine.,"Objection, Competition, Security"
+23,"We love the AI engine, but CompetitorY has a cheaper subscription.","Competition, Pricing Discussion"
+24,What pricing model do you offer compared to CompetitorX?,Competition
+25,Security concerns like data breaches are a top priority for us.,"Pricing Discussion, Objection, Security"
+26,"We love the data pipeline, but CompetitorX has a cheaper subscription.","Security, Competition"
+27,Can you offer a better renewal cost? We also like CompetitorX's data pipeline.,"Competition, Objection"
+28,Security concerns like data breaches are a top priority for us.,Security
+29,What pricing model do you offer compared to CompetitorY?,Security
+30,Our compliance team is worried about data handling. Are you SOC2 certified?,Pricing Discussion
+31,Security concerns like data breaches are a top priority for us.,"Pricing Discussion, Security, Competition"
+32,Data pipeline efficiency matters a lot. Can you customize it?,"Security, Objection"
+33,Our compliance team is worried about data handling. Are you SOC2 certified?,Objection
+34,"We love the analytics, but CompetitorX has a cheaper subscription.","Competition, Pricing Discussion, Security"
+35,What pricing model do you offer compared to CompetitorX?,"Objection, Pricing Discussion"
+36,Our compliance team is worried about data handling. Are you SOC2 certified?,"Objection, Competition, Pricing Discussion"
+37,Our compliance team is worried about data handling. Are you SOC2 certified?,"Pricing Discussion, Objection, Competition"
+38,Our compliance team is worried about data handling. Are you SOC2 certified?,Competition
+39,Our compliance team is worried about data handling. Are you SOC2 certified?,"Pricing Discussion, Competition, Objection"
+40,Data pipeline efficiency matters a lot. Can you customize it?,Objection
+41,What pricing model do you offer compared to CompetitorX?,"Objection, Competition"
+42,What pricing model do you offer compared to CompetitorZ?,"Competition, Security"
+43,"We love the analytics, but CompetitorX has a cheaper subscription.","Objection, Security"
+44,"We are considering a discount, but our analytics needs better integration.",Competition
+45,Can you offer a better renewal cost? We also like CompetitorX's analytics.,Objection
+46,Data pipeline efficiency matters a lot. Can you customize it?,Security
+47,"We are considering a discount, but our data pipeline needs better integration.","Competition, Pricing Discussion, Objection"
+48,We are evaluating the analytics capabilities of your solution vs CompetitorZ.,"Objection, Security, Competition"
+49,Our compliance team is worried about data handling. Are you SOC2 certified?,"Competition, Objection"
+50,We are evaluating the analytics capabilities of your solution vs CompetitorZ.,"Security, Objection"
+51,"We are considering a discount, but our data pipeline needs better integration.","Pricing Discussion, Objection, Competition"
+52,We are evaluating the analytics capabilities of your solution vs CompetitorX.,Competition
+53,Can you offer a better renewal cost? We also like CompetitorY's data pipeline.,"Competition, Objection"
+54,"We are considering a discount, but our analytics needs better integration.","Security, Pricing Discussion"
+55,Data pipeline efficiency matters a lot. Can you customize it?,"Competition, Objection"
+56,We are evaluating the analytics capabilities of your solution vs CompetitorY.,Competition
+57,Security concerns like data breaches are a top priority for us.,"Security, Pricing Discussion, Competition"
+58,Security concerns like data breaches are a top priority for us.,"Objection, Security"
+59,Security concerns like data breaches are a top priority for us.,Objection
+60,Data pipeline efficiency matters a lot. Can you customize it?,"Security, Pricing Discussion, Competition"
+61,Our compliance team is worried about data handling. Are you SOC2 certified?,Security
+62,What pricing model do you offer compared to CompetitorY?,Objection
+63,Can you offer a better renewal cost? We also like CompetitorY's data pipeline.,"Security, Competition, Objection"
+64,Security concerns like data breaches are a top priority for us.,"Objection, Pricing Discussion, Competition"
+65,What pricing model do you offer compared to CompetitorX?,"Objection, Competition, Pricing Discussion"
+66,"We love the analytics, but CompetitorX has a cheaper subscription.","Competition, Security"
+67,"We are considering a discount, but our analytics needs better integration.","Competition, Pricing Discussion"
+68,"We love the analytics, but CompetitorX has a cheaper subscription.",Security
+69,What pricing model do you offer compared to CompetitorX?,"Competition, Pricing Discussion"
+70,Security concerns like data breaches are a top priority for us.,Pricing Discussion
+71,Can you offer a better renewal cost? We also like CompetitorY's analytics.,Pricing Discussion
+72,Can you offer a better renewal cost? We also like CompetitorX's AI engine.,"Security, Pricing Discussion"
+73,"We are considering a discount, but our data pipeline needs better integration.","Competition, Security, Pricing Discussion"
+74,We are evaluating the analytics capabilities of your solution vs CompetitorZ.,"Competition, Pricing Discussion, Objection"
+75,Data pipeline efficiency matters a lot. Can you customize it?,"Security, Objection"
+76,Can you offer a better renewal cost? We also like CompetitorX's data pipeline.,Pricing Discussion
+77,"We love the AI engine, but CompetitorX has a cheaper subscription.","Pricing Discussion, Objection"
+78,"We love the analytics, but CompetitorZ has a cheaper subscription.","Competition, Security"
+79,Data pipeline efficiency matters a lot. Can you customize it?,"Pricing Discussion, Competition"
+80,Our compliance team is worried about data handling. Are you SOC2 certified?,"Objection, Security, Competition"
+81,Security concerns like data breaches are a top priority for us.,Competition
+82,"We are considering a discount, but our data pipeline needs better integration.",Objection
+83,Data pipeline efficiency matters a lot. Can you customize it?,"Competition, Security, Objection"
+84,Data pipeline efficiency matters a lot. Can you customize it?,"Security, Pricing Discussion, Objection"
+85,Data pipeline efficiency matters a lot. Can you customize it?,Security
+86,What pricing model do you offer compared to CompetitorZ?,"Competition, Pricing Discussion, Objection"
+87,Data pipeline efficiency matters a lot. Can you customize it?,"Pricing Discussion, Competition, Objection"
+88,Our compliance team is worried about data handling. Are you SOC2 certified?,"Competition, Security, Pricing Discussion"
+89,We are evaluating the analytics capabilities of your solution vs CompetitorZ.,Competition
+90,What pricing model do you offer compared to CompetitorY?,"Competition, Pricing Discussion, Objection"
+91,"We are considering a discount, but our AI engine needs better integration.",Competition
+92,Can you offer a better renewal cost? We also like CompetitorX's AI engine.,"Objection, Pricing Discussion, Security"
+93,"We are considering a discount, but our AI engine needs better integration.","Pricing Discussion, Competition, Security"
+94,"We are considering a discount, but our data pipeline needs better integration.","Security, Competition, Objection"
+95,What pricing model do you offer compared to CompetitorY?,"Competition, Security, Objection"
+96,Security concerns like data breaches are a top priority for us.,"Competition, Security, Objection"
+97,Security concerns like data breaches are a top priority for us.,"Pricing Discussion, Objection, Competition"
+98,"We are considering a discount, but our data pipeline needs better integration.","Pricing Discussion, Security, Competition"
+99,"We are considering a discount, but our data pipeline needs better integration.",Pricing Discussion
+100,"We are considering a discount, but our analytics needs better integration.","Competition, Security, Pricing Discussion"

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inference Service Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin: 20px 0;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f0f0f0;
+            border-radius: 5px;
+        }
+        .result pre {
+            margin: 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Inference Service</h1>
+        <textarea id="snippet" placeholder="Enter your text snippet here..."></textarea>
+        <button id="submit">Submit</button>
+        <div class="result" id="result" style="display: none;">
+            <h3>Results:</h3>
+            <pre id="result-output"></pre>
+        </div>
+    </div>
+
+    <script>
+        const submitButton = document.getElementById('submit');
+        const resultContainer = document.getElementById('result');
+        const resultOutput = document.getElementById('result-output');
+
+        submitButton.addEventListener('click', () => {
+            const snippet = document.getElementById('snippet').value;
+
+            if (!snippet.trim()) {
+                alert("Please enter a valid text snippet.");
+                return;
+            }
+
+            // Make the API request
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ snippet }),
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Display the results
+                    resultContainer.style.display = 'block';
+                    resultOutput.textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    alert("Error: Unable to connect to the server.");
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+        });
+    </script>
+</body>
+</html>
